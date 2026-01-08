@@ -1,4 +1,5 @@
-import 'package:ecommerce_app/view/login_page.dart';
+import 'package:ecommerce_app/cores/theme/app_theme.dart';
+import 'package:ecommerce_app/view/signup_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -13,11 +14,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Ecommerce App',
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-        fontFamily:"Montserrat"
-      ),
-      home: const LoginPage(),
+      theme: AppTheme.theme,
+      home: const SignupPage(),
     );
   }
 }

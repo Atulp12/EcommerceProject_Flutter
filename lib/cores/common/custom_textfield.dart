@@ -19,14 +19,14 @@ class CustomTextfield extends StatelessWidget {
         hintText: hintText,
         enabledBorder: OutlineInputBorder(
           borderRadius: BorderRadius.all(Radius.circular(15)),
-          borderSide: BorderSide(color: Colors.grey.shade400),
+          borderSide: BorderSide(color: Colors.grey.shade300),
         ),
         focusedBorder: OutlineInputBorder(
           borderRadius: BorderRadius.all(Radius.circular(15)),
           borderSide: BorderSide(color: Colors.grey.shade500),
         ),
         filled: true,
-        fillColor: Colors.grey.shade300,
+        fillColor: Colors.grey.shade100,
         prefixIcon: icon,
       ),
     );
